@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+[data-screen] {
+  background: #fff;
+  transition: background-color 1s; }
+
+[data-screen="1"] {
+  background-color: red; }
+
+[data-screen="2"] {
+  background-color: green; }
+
+[data-screen="3"] {
+  background-color: blue; }
+
+[data-screen="4"] {
+  background-color: yellow; }
+
+article {
+  display: block;
+  min-height: 400vh; }
